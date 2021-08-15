@@ -5,5 +5,5 @@ function open_letter() {
 
 
 function on_click_rtanny() {
-    window.location.href = 'http://192.168.1.7:5500/laila/card2.html';
+    window.location.href = 'https://inihanyatugas.github.io/card2.html';
 }
