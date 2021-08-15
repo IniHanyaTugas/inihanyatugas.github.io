@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>hehe</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Yusei Magic', sans-serif;
+    }
+    section {
+        width: 100%;
+        height: 100vh;
+        background-color: #f2f2f2;
+    }
+
+    .konten {
+        width: 80%;
+        margin: auto;
+    }
+
+    .kontendalem {
+        /* background-color: #333; */
+        width: 100%;
+        height: 400px;
+    }
+
+
+    .backbutton {
+        position: absolute;
+        top: 20px;
+        left: 40px;
+    }
+
+    .backbutton a i {
+        font-size: 20px;
+        padding: 10px;
+        background-color: hsla(0, 39%, 39%, 0.144);
+        color: rgb(190, 102, 74);
+        border-radius: 40px;
+        transition: all 200ms ease-in;
+    }
+
+    .backbutton a i:hover {
+        background-color: rgb(219, 107, 107);
+        color: white;
+        transition: all 200ms ease-out;
+    }
+
+
+    /* ====== bagian kartu ========== */
+    .kontainer-kartu {
+        padding: 20px 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex: auto;
+        margin: auto;
+    }
+
+    .kartuu {
+        /* background-color: darkblue; */
+        padding: 10px 30px;
+        width: 100%;
+        height: auto;
+        color: #f2f2f2;
+        box-sizing: border-box;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.164);
+        display: flex;
+        margin: 0px auto;
+    }
+
+    .kartuu .kartu-dalem{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .kartuu .kimage {
+        width: 100%;
+        position: relative;
+    }
+
+    .kartuu .kimage img{
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .kartuu p {
+        position: relative;
+        color: crimson;
+    }
+</style>
+
+<body>
+
+    <div class="backbutton">
+        <a href="./card.html"><i class="fad fa-arrow-to-left"></i></a>
+    </div>
+
+    <section class="landingpage">
+        <div class="konten">
+            <div class="kontendalem">
+                <div class="kontainer-kartu">
+
+                    <div class="kartuu">
+                        <div class="kartu-dalem">
+                            <div class="kimage">
+                                <!-- <video width="320" height="240" autoplay>
+                                    <source src="movie.mp4" type="video/mp4">
+                                    <source src="movie.ogg" type="video/ogg">
+                                    Your browser does not support the video tag.
+                                </video> -->
+                                <iframe width="100%" height="500" src="https://www.youtube.com/embed/-TW2s1BsQ8w?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+* {
+    font-family: 'Yusei Magic', sans-serif;
+}
+body {
+    background: url('https://i.makeagif.com/media/1-12-2021/YsWRDA.gif');
+    background-color: #f2f2f2;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.envelope,
+.envelope2 {
+    width: 200px;
+    height: 200px;
+
+    background-image: url('https://pngimg.com/uploads/envelope/envelope_PNG18366.png');
+    background-size: cover;
+    background-position: center;
+
+    margin: 100px auto 40px auto;
+}
+.envelope-msg,
+.envelope-msg2 {
+    color: crimson;
+    text-align: center;
+}
+
+.letter-closed{
+    display: block;
+    cursor: pointer;
+}
+.letter-closed2{
+    display: none;
+    cursor: pointer;
+}
+.letter-open,
+.letter-open2 {
+    display: none;
+}
+.rtanny {
+    width: 200px;
+    height: 200px;
+    /* background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/global/SpartaIcon8.gif'); */
+    background-image: url('https://asset.kompas.com/crops/4nlw4yWzv0SiUKwqBrGSz970qL4=/351x305:3157x2175/750x500/data/photo/2021/08/01/6105f4c4e28a6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    border-radius: 100px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px 0px rgba(107, 94, 94, 0.384);
+
+    margin: 75px auto 20px auto;
+    cursor: pointer;
+}
+.letter-tittle,
+.letter-tittle2 {
+    color: crimson;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+.messagebox,
+.messagebox2 {
+    background-color: ivory;
+    width: 400px;
+    margin: 8px auto 0px auto;
+    padding: 22px;
+    color: lightcoral;
+}
+
+@media screen and (max-width: 760px) {
+    .messagebox {
+        width: 300px;
+        padding: 14px;
+    }
+    .rtanny {
+    width: 140px;
+    height: 140px;
+    margin: 45px auto 20px auto;
+    }
+    .letter-tittle {
+    font-size: 22px;
+    }
+    .envelope {
+    width: 150px;
+    height: 150px;
+    margin: 180px auto 40px auto;
+    }
+    .envelope-msg {
+    font-size: 18px;
+    }
+}
